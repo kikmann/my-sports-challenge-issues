@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a problem on my-sports-challenge.com
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue.
+        Please provide as much detail as possible so we can reproduce and fix it.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Short description of the problem
+      placeholder: The workout details page shows an error
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps to reproduce the issue
+      placeholder: |
+        1. Sign in
+        2. Open "My Challenges"
+        3. Click a challenge
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: The challenge details should load successfully
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: I see "Something went wrong" and the page stays blank
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, device, and OS (if relevant)
+      placeholder: Chrome 128 on macOS 14
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add screenshots, logs, or anything else that may help

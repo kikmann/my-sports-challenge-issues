@@ -1,0 +1,45 @@
+name: Feature request
+description: Suggest an improvement for my-sports-challenge.com
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your idea.
+        Clear requests help us prioritize and implement improvements faster.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Short summary of the feature request
+      placeholder: Add a weekly progress chart to challenge pages
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What problem are you trying to solve?
+      placeholder: It's hard to track progress over time from the current UI
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe your preferred solution
+      placeholder: Show a line chart with completed workouts by week
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any alternative ideas you've considered
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add examples, references, or mockups if available
