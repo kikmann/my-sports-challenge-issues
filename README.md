@@ -1,4 +1,4 @@
-# my-sports-challenge-issues
+# Issues for my-sports-challenge.com
 
 This repository is the public issue tracker for [my-sports-challenge.com](https://my-sports-challenge.com).
 
